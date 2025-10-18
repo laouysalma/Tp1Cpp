@@ -42,7 +42,7 @@ void CompteBancaire::afficher() {
 int main() {
     CompteBancaire compte1;
 
-    compte1.definirTitulaire("Mohamed Lachgar");
+    compte1.definirTitulaire("Salma Laouy");
     compte1.depot(500.0);
     compte1.retrait(200.0);
     compte1.afficher();
